@@ -1,14 +1,10 @@
 {
 	"name": "gulp-imagemin-candy",
-	"version": "8.1.1",
+	"version": "8.1.2",
 	"description": "Minify PNG, JPEG, GIF and SVG images",
 	"license": "MIT",
 	"repository": "phederal/gulp-imagemin-candy",
-	"author": {
-		"name": "Qork",
-		"email": "it@qork.ru",
-		"url": "qork.ru"
-	},
+	"author": "Roman Kurushin <it@qork.ru> (https://qork.ru/)",
 	"type": "module",
 	"exports": "./index.js",
 	"engines": {
