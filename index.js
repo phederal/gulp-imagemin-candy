@@ -1,4 +1,3 @@
-import { createRequire } from 'node:module';
 import path from 'node:path';
 import process from 'node:process';
 import log from 'fancy-log';
@@ -27,7 +26,6 @@ const exposePlugin = plugin => (...args) => loadPlugin(plugin, ...args);
 const getDefaultPlugins = () => defaultPlugins.flatMap(plugin => loadPlugin(plugin));
 
 export default function gulpImagemin(plugins, options) {
-	const require = createRequire(import.meta.url);
 
 	if (typeof plugins === 'object' && !Array.isArray(plugins)) {
 		options = plugins;
